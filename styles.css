@@ -59,17 +59,17 @@ body {
     border-top: 4px solid #ec0023;
     background-color: rgb(253, 189, 41);
     height: 22px;
-    width: 250px;
+    width: 350px;
     border-radius: 20px;
 }
 
 img {
-    width: 250px;
+    width: 350px;
     border-radius: 20px;
 }
 
 .activities_description_text {
-    width: 250px;
+    width: 350px;
 }
 
 .guide_section {
