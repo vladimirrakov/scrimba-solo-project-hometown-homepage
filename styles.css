@@ -1,17 +1,12 @@
+* {
+    scroll-behavior: smooth;
+}
+
 body {
-    margin: 0;
     text-align: center;
     color: #020202;
     font-family: 'Open Sans', sans-serif;
-}
-
-.text_highlight {
-    background-color: #ec0023;
-    padding: 0px 20px 0px 20px;
-}
-
-.text_underline {
-    border-bottom: 2px solid rgb(255, 0, 0);
+    background-color: #d3d3d3;
 }
 
 .hero_section {
@@ -27,17 +22,26 @@ body {
     margin-bottom: 30px;
 }
 
-.hero_header {
+.hero_section_title {
     color: white;
     text-shadow: 0px 0px 20px #020202;
     width: 450px;
 }
 
-.hero_subheader {
+.hero_section_title_highlight {
+    background-color: #ec0023;
+    padding: 0px 20px 0px 20px;
+}
+
+.hero_section_caption {
     width: 350px;
     background-color: rgba(255, 255, 255, 0.788);
     border-radius: 20px;
     padding: 0px 0px 10px 0px;
+}
+
+.hero_section_caption_underline {
+    border-bottom: 2px solid rgb(255, 0, 0);
 }
 
 .activities_section {
@@ -47,7 +51,7 @@ body {
     gap: 50px;
 }
 
-.activities_img_header {
+.activities_title {
     font-weight: bold;
     border-top: 4px solid #ec0023;
     background-color: rgb(253, 189, 41);
@@ -61,12 +65,12 @@ img {
     border-radius: 20px;
 }
 
-.activities_img_description_text {
+.activities_description_text {
     width: 250px;
 }
 
-@media (max-width:950px) {
-    .activities_img_header {
+@media (min-width:950px) {
+    .activities_title {
         width: 350px;
     }
 
@@ -74,7 +78,7 @@ img {
         width: 350px;
     }
 
-    .activities_img_description_text {
+    .activities_description_text {
         width: 350px;
     }
 }
