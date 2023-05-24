@@ -55,7 +55,7 @@ body {
 }
 
 .activities_block {
-    margin: 0 75px 0 75px;
+    margin: 0 50px 0 50px;
 }
 
 .activities_title {
@@ -63,17 +63,17 @@ body {
     border-top: 4px solid #ec0023;
     background-color: rgb(253, 189, 41);
     height: 22px;
-    width: 350px;
     border-radius: 20px;
 }
 
 .activities_image {
-    width: 350px;
     border-radius: 20px;
+    width: 250px;
 }
 
 .activities_description {
-    width: 350px;
+    font-size: 14px;
+    font-weight: bold;
 }
 
 /* GUIDE SECTION */
@@ -165,4 +165,32 @@ button[class^="grow"]:hover::after {
 
 .grow-box:hover::after {
     transform: scale(1, 1);
+}
+
+@media (max-width:950px) {
+    .activities_section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .activities_title {
+        width: 100%;
+    }
+
+    .activities_image {
+        width: 100%;
+    }
+
+    .activities_description {
+        width: 100%;
+    }
+
+.guide_section {
+    width: 100%;
+}
+
+.quotation {
+    width: auto;
+    margin: 30px 90px 30px 80px;}
 }
