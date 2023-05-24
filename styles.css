@@ -12,7 +12,7 @@ body {
 /* HERO SECTION */
 
 .hero_section {
-    background-image: url("images/bern-welcome-picture.jpg");
+    background-image: url("images/bern-title-picture-5670x3381.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -46,7 +46,7 @@ body {
     border-bottom: 2px solid rgb(255, 0, 0);
 }
 
-/* ACTIVITIES SECTION */
+/* ACTIVITIES SECTION 1 */
 
 .activities_section {
     display: flex;
@@ -167,7 +167,7 @@ button[class^="grow"]:hover::after {
     transform: scale(1, 1);
 }
 
-@media (max-width:950px) {
+@media (min-width: 375px) {
     .activities_section {
         display: flex;
         flex-direction: column;
@@ -186,11 +186,12 @@ button[class^="grow"]:hover::after {
         width: 100%;
     }
 
-.guide_section {
-    width: 100%;
-}
+    .guide_section {
+        width: 100%;
+    }
 
-.quotation {
-    width: auto;
-    margin: 30px 90px 30px 80px;}
+    .quotation {
+        width: auto;
+        margin: 30px 90px 30px 80px;
+    }
 }
