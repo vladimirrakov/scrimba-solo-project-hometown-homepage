@@ -9,6 +9,8 @@ body {
     background-color: #d3d3d3;
 }
 
+/* HERO SECTION */
+
 .hero_section {
     background-image: url("images/bern-welcome-picture.jpg");
     background-size: cover;
@@ -44,6 +46,8 @@ body {
     border-bottom: 2px solid rgb(255, 0, 0);
 }
 
+/* ACTIVITIES SECTION */
+
 .activities_section {
     display: flex;
     flex-wrap: wrap;
@@ -51,7 +55,7 @@ body {
 }
 
 .activities_block {
-    margin: 0 50px 0 50px;
+    margin: 0 75px 0 75px;
 }
 
 .activities_title {
@@ -63,14 +67,16 @@ body {
     border-radius: 20px;
 }
 
-img {
+.activities_image {
     width: 350px;
     border-radius: 20px;
 }
 
-.activities_description_text {
+.activities_description {
     width: 350px;
 }
+
+/* GUIDE SECTION */
 
 .guide_section {
     width: 80%;
