@@ -1,118 +1,119 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;800&display=swap" rel="stylesheet">
 </head>
 
 <body>
+
     <!-- HERO SECTION -->
+
     <div class="hero_section">
-        <div class="hero_section_title">
-            <h1>
-                <span class="hero_section_title_highlight">
-                    Visit Bern, Switzerland
-                </span>
-            </h1>
+        <h1 class="hero_section_title">
+            Visit Bern, Switzerland
+        </h1>
+        <h2 class="hero_section_caption">
+            Enjoy the <span class="hero_section_caption_underline">city and its lifestyle</span>
+            on the <span class="hero_section_caption_underline">river of Aare</span>
+            with a view towards the <span class="hero_section_caption_underline">snowy mountain peaks</span>
+            of the Alps
+        </h2>
+    </div>
+
+    <!-- ACTIVITY SECTION -->
+
+    <h2 class="activity_section_title">Top three activities to do in Bern</h2>
+    <div class="activity_section">
+        <div class="activity_block">
+            <p class="activity_name">City tour</p>
+            <a href="https://en.wikipedia.org/wiki/Bern">
+                <img class="activity_image" src="images/bern-city-tour.jpg">
+            </a>
+            <p class="activity_description">
+                Enjoy the old city of Bern and its lifestyle
+            </p>
         </div>
-        <div class="hero_section_caption">
+        <div class="activity_block">
+            <p class="activity_name">Swimming</p>
+            <a href="https://en.wikipedia.org/wiki/Aare">
+                <img class="activity_image" src="images/bern-swimming-in-aare.jpg">
+            </a>
+            <p class="activity_description">
+                Enjoy swimming downstream in the Aare river
+            </p>
+        </div>
+        <div class="activity_block">
+            <p class="activity_name">Hiking</p>
+            <a href="https://en.wikipedia.org/wiki/Lake_Thun">
+                <img class="activity_image" src="images/bern-mountain-hike.jpg">
+            </a>
+            <p class="activity_description">
+                Hike towards the snowy Alps and around lakes
+            </p>
+        </div>
+    </div>
+
+    <!-- QUOTATION SECTION -->
+
+    <h2>What do people say about Bern and Switzerland?</h2>
+    <div class="quotation_text">
+        <p>
+            <span class="highlighted_quotation_text">
+                Bern
+            </span>
+            is a symphony of timelessness and innovation,
+            where medieval charm dances hand in hand with contemporary
+            brilliance, creating a melody that captivates the heart and mind.
+        </p>
+    </div>
+    <div class="quotation_text">
+        <p>
+            <span class="highlighted_quotation_text">
+                Switzerland
+            </span>
+            is like a painting come to life, with stunning mountains,
+            pristine lakes, and a blend of natural beauty and
+            precise craftsmanship that takes your breath away.
+        </p>
+    </div>
+
+    <!-- GUIDE SECTION -->
+
+    <footer>
+        <div class="footer_title">
             <h2>
-                <span>
-                    Enjoy the
-                    <span class="hero_section_caption_underline">city<br />
-                        and its lifestyle</span><br />
-                    on the
-                    <span class="hero_section_caption_underline">river of Aare</span><br />
-                    with a view towards<br />
-                    <span class="hero_section_caption_underline">the snowy mountain<br />
-                        peaks</span>
-                    of the Alps
-                </span>
+                Would you like to have see the city and hear about its life and history?
+                Meet Your Guide!
             </h2>
         </div>
-    </div>
-    <!-- ACTIVITIES SECTION -->
-    <div>
-        <h3>Top three activities to do in Bern</h3>
-        <div class="activities_section">
-            <div class="activities_block">
-                <p class="activities_title">City tour</p>
-                <img class="activities_image" src="images/bern-city-tour.jpg">
-                <p class="activities_description">
-                    Enjoy the old city of Bern and its lifestyle
-                </p>
+        <div class="footer_section">
+            <div class="footer_section_image">
+                <img src="images/my-photo-small.jpg" alt="my small photo">
             </div>
-            <div class="activities_block">
-                <p class="activities_title">Swimming</p>
-                <img class="activities_image" src="images/bern-swimming-in-aare.jpg">
-                <p class="activities_description">
-                    Enjoy swimming downstream in the Aare river
+            <div class="footer_section_elements">
+                <h3 class="footer_section_heading">
+                    My name is Vladimir Rakov 👋
+                </h3>
+                <p class="footer_section_caption">
+                    I am your guide in Bern. I know the city since 20 years,
+                    so I can show you all of its best parts and hidden secrets.
                 </p>
-            </div>
-            <div class="activities_block">
-                <p class="activities_title">Hiking</p>
-                <img class="activities_image" src="images/bern-mountain-hike.jpg">
-                <p class="activities_description">
-                    Hike towards the snowy Alps and around lakes
-                </p>
+                <button class="grow-box" onclick=" window.open('https://twitter.com/vlad_coding_365','_blank')">
+                    Get in touch
+                </button>
             </div>
         </div>
-    </div>
-    <!-- ACTIVITIES SECTION 2 -->
-    <div class="activities_section">
-        <div class="activities_block">
-            <img class="activities_image" src="images/bern-city-tour.jpg" alt="">
-            <h3 class="activities_title">Zona Colonial</h3>
-            <p>Located in Santo Domingo,
-                is a UNESCO World Heritage Site and the oldest continuously inhabited European settlement in the
-                Americas.
-                Stepping into this historic district is like traveling back in time to the 16th century.</p>
+        <div class="copyright_footer_text">
+            <a href="https://en.wikipedia.org/wiki/Copyright" target="_blank">
+                Copyright 2023
+            </a>
         </div>
-        <div class="activities_block">
-            <img class="activities_image" src="images/bern-swimming-in-aare.jpg" alt="">
-            <h3 class="activities_title">Bahia de las Aguilas</h3>
-            <p>Located in the southwestern part of the Dominican Republic,
-                with its crystal-clear turquoise waters,
-                powdery white sand,
-                and stunning rocky cliffs,
-                it is considered one of the most beautiful beaches in the Caribbean.</p>
-        </div>
-        <div class="activities_block">
-            <img class="activities_image" src="images/bern-mountain-hike.jpg" alt="">
-            <h3 class="activities_title">Merengue</h3>
-            <p>Merengue is a lively and infectious music and dance style that originated in the Dominican Republic.
-                It is considered the national dance and music of the country,
-                deeply rooted in the cultural identity of its people.</p>
-        </div>
-    </div>
-    <!-- GUIDE SECTION -->
-    <div class="guide_section">
-        <h3>I am your guide in Bern</h3>
-        <div class="quotation">
-            "I know Bern since 20 years,<br />
-            so I can show you all of its best parts<br />
-            and hidden secrets.
-        </div>
-        <h3>Contact me</h3>
-    </div>
-    <!-- BUSINESS CARD SECTION -->
-    <div class="business_card">
-        <div class="column_left">
-            <img src="images/my-photo-small.jpg" alt="Vladimir Rakov smiling at the camera with a white background"
-                class="image_avatar">
-        </div>
-        <div class="column_right">
-            <h2 style="font-size: 24px;">Vladimir Rakov</h2>
-            <p style="font-size: 16px;">City guide in Bern</p>
-            <button class="grow-box" onclick=" window.open('https://www.linkedin.com/in/vladimir-rakov/','_blank')">
-                Get in touch
-            </button>
-        </div>
-    </div>
+    </footer>
 </body>
 
 </html>
