@@ -50,6 +50,40 @@ h2 {
     border-bottom: 2px solid #d60909;
 }
 
+/* Hero button and its link */
+
+#hero_button {
+    margin-top: 30px;
+    border: 2px solid #ffffff;
+}
+
+#hero_button:hover {
+    color: #020202;
+}
+
+a.class1 {
+    color: #ffffff;
+}
+
+a.link_class_1:link {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+a.link_class_1:hover {
+    color: #020202;
+}
+
+a.link_class_1:active {
+    text-decoration: none;
+    color: yellow;
+}
+
+a.link_class_1:visited {
+    text-decoration: none;
+    color: #ffffff;
+}
+
 /* ACTIVITY SECTION */
 
 .activity_section_title {
@@ -179,7 +213,7 @@ h2 {
     font-size: 20px;
 }
 
-/* BUTTON WITH HOVER EFFECT */
+/* BUTTON IN FOOTER SECTION WITH HOVER EFFECT */
 
 button {
     background: #d60909;
@@ -206,7 +240,7 @@ button::after {
     z-index: -1;
     padding: 13px 12px;
     display: block;
-    border-radius: 15px;
+    border-radius: 10px;
     font-weight: bold;
 }
 
